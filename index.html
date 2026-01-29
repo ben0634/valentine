@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>?</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- Envelope Opening State -->
+    <div class="envelope-wrapper" id="envelopeWrapper">
+      <div class="envelope" id="envelope">
+        <div class="envelope-flap"></div>
+        <div class="envelope-body"></div>
+        <p class="envelope-text">To: Natalie</p>
+      </div>
+    </div>
+
+    <!-- Initial State -->
+    <div class="card" id="initialCard">
+      <h1 class="title">Will you be my Valentine?</h1>
+      <div class="photo-container">
+        <img src="images/us1.jpg" alt="" class="photo" />
+      </div>
+      <div class="buttons">
+        <button id="yesBtn" class="btn btn-yes">Yes</button>
+        <button id="noBtn" class="btn btn-no">No</button>
+      </div>
+    </div>
+
+    <!-- Success State (hidden by default) -->
+    <div class="card success-card" id="successCard">
+      <h1 class="success-title">WOOHOO!! YAYY!</h1>
+      <div class="success-content">
+        <p class="love-note">
+          Thank you for being my Valentine ☻ 
+        </p>
+        <p class="love-note-signature">
+          I LOVE YOU NATALIE
+        </p>
+      </div>
+      <div class="photo-container">
+        <img src="images/us2.jpg" alt="" class="photo" />
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
